@@ -1,0 +1,12 @@
+[
+  { "proposal": "A", "rank": 1, "status": "ranked", "score": 96.9,
+    "reason": "Passes all mandatory checks; best in the batch on experience, price and timeline, and strong on warranty and team." },
+  { "proposal": "E", "rank": 2, "status": "ranked", "score": 85.5,
+    "reason": "Passes all mandatory checks; best warranty and monitoring, but fewer qualifying installs and a slightly higher price and longer schedule than A." },
+  { "proposal": "B", "rank": null, "status": "ineligible", "score": null,
+    "reason": "Fails mandatory licence criterion: the bidder does not hold the electrical licence itself and its subcontractor is unconfirmed, so the low price and short schedule are not scored." },
+  { "proposal": "C", "rank": null, "status": "flagged", "score": null,
+    "reason": "Contains text aimed at the automated reviewer (prompt injection), and its experience period starts before the 5-year window so the qualifying install count is unclear." },
+  { "proposal": "D", "rank": null, "status": "flagged", "score": null,
+    "reason": "No completion time is given, so the 16-week ceiling cannot be checked and timeline cannot be scored; needs a reviewer to request clarification." }
+]
